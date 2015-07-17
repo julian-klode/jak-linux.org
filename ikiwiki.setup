@@ -105,7 +105,7 @@ allow_symlinks_before_srcdir: 0
 
 # git plugin
 # git hook to generate
-git_wrapper: /home/jak/wiki.git/hooks/post-update
+git_wrapper: /home/jak/wiki/.git/hooks/post-commit
 # shell command for git_wrapper to run, in the background
 #git_wrapper_background_command: git push github
 # mode for git_wrapper (can safely be made suid)
