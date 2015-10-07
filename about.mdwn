@@ -27,5 +27,5 @@ The JAK LINUX is powered by [ikiwiki](http://ikiwiki.info), a free wiki
 compiler. Only a static export of the website is available, because there
 is no support for dynamic content on the server this site is hosted.
 The design is based on [Bootstrap](http://twitter.github.com/bootstrap/), from
-Twitter, in version 3.3.4, and is licensed under the [MIT license](https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/LICENSE).
+Twitter, in version 3.3.5, and is licensed under the [MIT license](https://raw.githubusercontent.com/twbs/bootstrap/v3.3.5/LICENSE).
 The source code for the website is available at <http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary>.
