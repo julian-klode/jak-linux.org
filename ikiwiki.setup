@@ -115,9 +115,9 @@ git_wrapper: /home/jak/Projects/website/.git/hooks/post-commit
 # unix users whose commits should be checked by the pre-receive hook
 #untrusted_committers: []
 # gitweb url to show file history ([[file]] substituted)
-historyurl: http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=history;f=[[file]];hb=HEAD
+historyurl: https://github.com/julian-klode/jak-linux.org/commits/master/[[file]]
 # gitweb url to show a diff ([[file]], [[sha1_to]], [[sha1_from]], [[sha1_commit]], and [[sha1_parent]] substituted)
-diffurl: http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=blobdiff;f=[[file]];h=[[sha1_to]];hp=[[sha1_from]];hb=[[sha1_commit]];hpb=[[sha1_parent]]
+diffurl: https://github.com/julian-klode/jak-linux.org/commit/[[sha1_commit]]/[[file]]
 # where to pull and push changes (set to empty string to disable)
 gitorigin_branch: origin
 # branch that the wiki is stored in
