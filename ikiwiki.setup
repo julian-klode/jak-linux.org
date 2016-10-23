@@ -342,11 +342,12 @@ autoindex_commit: 1
 # bootmenu plugin
 # Primary menu
 bootmenu:
-- projects/debimg
 - projects/dh-autoreconf
 - projects/dir2ogg
 - projects/hardlink
 - projects/ndisgtk
+- projects/triehash
+- projects/dns66
 # Secondary menu
 bootmenu2:
 - About
