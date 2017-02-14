@@ -27,10 +27,6 @@ The JAK LINUX is powered by [ikiwiki](http://ikiwiki.info), a free wiki
 compiler. It is hosted on [uberspace](https://uberspace.de/), domains are provided by
 [INWX](https://www.inwx.de/).
 
-[<img src="/uberspace.png"
-      alt="Hosted on uberspace"
-      height="80">](https://uberspace.de/)
-
 The design is based on [Bootstrap](https://getbootstrap.com/), from
 Twitter, in version 3.3.7, and is licensed under the [MIT license](https://raw.githubusercontent.com/twbs/bootstrap/v3.3.7/LICENSE).
 The source code for the website is available at <http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary>.
