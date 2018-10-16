@@ -10,8 +10,8 @@ and develop some other software myself, such as hardlink.
 You can contact me via one of the following options:
 
  * Send an email to [jak@jak-linux.org](mailto:jak@jak-linux.org)
- * Send a Jabber message to [juliank@jabber.org](xmpp:juliank@jabber.org)
- * Contact me via IRC, nickname *juliank* on networks FreeNode, OFTC, GimpNet.
+ * Send a Jabber message to [juliank@jabber.ccc.de](xmpp:juliank@jabber.ccc.de)
+ * Contact me via IRC, nickname *juliank* on networks FreeNode, OFTC.
 
 You can also read my blog at <http://juliank.wordpress.com/> and add me to
 your circles on [Google+](https://plus.google.com/100306574310962400498).
@@ -24,8 +24,9 @@ since become a place where my projects are hosted.
 
 ## Site Technology
 The JAK LINUX is powered by [ikiwiki](http://ikiwiki.info), a free wiki
-compiler. Only a static export of the website is available, because there
-is no support for dynamic content on the server this site is hosted.
+compiler. It is hosted on [uberspace](https://uberspace.de/), domains are provided by
+[INWX](https://www.inwx.de/).
+
 The design is based on [Bootstrap](https://getbootstrap.com/), from
 Twitter, in version 3.3.7, and is licensed under the [MIT license](https://raw.githubusercontent.com/twbs/bootstrap/v3.3.7/LICENSE).
 The source code for the website is available at <http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary>.
