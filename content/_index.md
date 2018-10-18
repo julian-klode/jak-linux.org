@@ -18,7 +18,7 @@ Date|Event|Details
 ----|-----|-------
 2018-10-21|Tech changes|Switched from ikiwiki to Hugo
 2017-02-06|Tech changes|Switched to HTTPS (with HSTS) and compressed content
-2016-01-19|[dir2ogg]([projects/dir2ogg) | [0.12](projects/dir2ogg/0.12/dir2ogg-0.12.tar.gz)|Bug fixes and removal of CD support
+2016-01-19|[dir2ogg](projects/dir2ogg) | [0.12](projects/dir2ogg/0.12/dir2ogg-0.12.tar.gz)|Bug fixes and removal of CD support
 2014-09-25|[hardlink](projects/hardlink) [0.3.0](projects/hardlink/hardlink_0.3.0.tar.xz)|Stable 0.3 release, added including xattr support
 2014-01-05|[hardlink](projects/hardlink) [0.3.0 RC2](projects/hardlink/hardlink_0.3.0~rc2.tar.gz)|Fix a potential data loss introduced in 0.3.0 RC1
 2012-09-17|[hardlink](projects/hardlink) [0.3.0 RC1](projects/hardlink/hardlink_0.3.0~rc1.tar.gz)|Larger bug fixes
