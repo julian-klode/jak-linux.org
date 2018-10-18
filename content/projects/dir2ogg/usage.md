@@ -1,4 +1,10 @@
-[[!meta title="dir2ogg manpage"]]
+---
+title: "dir2ogg manpage"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 # NAME
 
 dir2ogg - Convert MP3, WAV, and M4A files to OGG format
@@ -117,3 +123,4 @@ Enter you bug reports in Launchpad at <https://bugs.launchpad.net/dir2ogg>
 
 In contrast to the information given at the end of the webpage, this content
 is licensed under the GPL 2 (or at your option) any later version.
+

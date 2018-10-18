@@ -1,4 +1,10 @@
-[[!meta title="dir2ogg - audio conversion tool"]]
+---
+title: "dir2ogg - audio conversion tool"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|Links|Latest release
@@ -73,3 +79,4 @@ hard-core audiophile you may be disappointed. I really can't notice a difference
 in quality with 'naked' ears myself. You might want to do your conversion, then
 compare with the original before erasing them."_ - Darren Kirby, initial
 dir2ogg developer
+

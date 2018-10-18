@@ -1,4 +1,10 @@
-[[!meta title="hardlink - replace file copies using hardlinks"]]
+---
+title: "hardlink - replace file copies using hardlinks"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|Bug tracking|VCS|Latest release
@@ -58,3 +64,4 @@ Licensing
 ---------
 hardlink is published under the terms of the MIT license. See the source code
 for more information. This file is subject to the same licensing terms.
+

@@ -1,4 +1,10 @@
-[[!meta title="dh-autoreconf - Automagical autoreconf for debhelper"]]
+---
+title: "dh-autoreconf - Automagical autoreconf for debhelper"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|Bug Tracking|VCS|Latest release
@@ -17,3 +23,4 @@ support for the <code>-Wl,--as-needed</code> option to libtool. Despite the
 name and those autotools-specific features, dh-autoreconf is not specific
 to autotools and can be used with almost any program which modifies the build
 tree (as long as the files it changes/adds can be safely removed).
+

@@ -1,4 +1,10 @@
-[[!meta title="TrieHash - Fastest Perfect Hash Function"]]
+---
+title: "TrieHash - Fastest Perfect Hash Function"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|Reference
@@ -9,3 +15,4 @@ TrieHash is a generator that generates a minimal order-preserving perfect
 hash function in C code.
 
 See the GitHub page for further information.
+

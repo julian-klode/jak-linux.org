@@ -1,4 +1,10 @@
-[[!meta title="debimg - Alternative debian-cd in Python"]]
+---
+title: "debimg - Alternative debian-cd in Python"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|SCM|Latest release
@@ -94,5 +100,6 @@ available, though.
     </dd>
 
 </dl>
+
 
 

@@ -1,4 +1,10 @@
-[[!meta title="Welcome"]]
+---
+title: "Welcome"
+date: Thu, 18 Oct 2018 22:16:36 +0200
+lastmod: Thu, 18 Oct 2018 22:16:36 +0200
+---
+
+
 
 Hello, I'm Julian Andres Klode and this is my website. I am a Debian
 Developer and Ubuntu Member. [[Read_more...|about]]
@@ -44,3 +50,4 @@ Date|Event|Details
 2008-10-03|[[projects/ndisgtk]] [[0.8|projects/ndisgtk/ndisgtk-0.8.tar.gz]]|New translations and more
 2007-07-07|new website|Redesigned the website (Design from mentors.debian.net) and added more informations
 """]]
+

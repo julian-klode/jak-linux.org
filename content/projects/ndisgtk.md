@@ -1,4 +1,10 @@
-[[!meta title="ndisgtk - graphical frontend for ndiswrapper"]]
+---
+title: "ndisgtk - graphical frontend for ndiswrapper"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|Launchpad|VCS|Latest release
@@ -106,3 +112,4 @@ Release history
 
 [[ndisgtk-0.7.0.tar.gz]]
 [[ndisgtk-0.7.0.tar.gz.asc]]
+

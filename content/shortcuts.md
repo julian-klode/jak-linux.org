@@ -1,3 +1,9 @@
+---
+title: "shortcuts"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
 [[!if test="enabled(shortcut)"
      then="This wiki has shortcuts **enabled**."
      else="This wiki has shortcuts **disabled**."]]
@@ -85,3 +91,4 @@ ikiwiki will include your shortcut in the standard underlay.
 Additional short cuts:
 * [[!shortcut name=lp url="https://launchpad.net/bugs/%s" desc="LP: #%s"]]
 * [[!shortcut name=Closes url="http://bugs.debian.org/%s" desc="Closes: #%s"]]
+

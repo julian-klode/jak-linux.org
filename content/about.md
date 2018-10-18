@@ -1,4 +1,10 @@
-[[!meta title="About"]]
+---
+title: "About"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 My name is Julian Andres Klode, I'm a Debian Developer and Ubuntu Member,
 amongst other things. I maintain various software taken over from others,
@@ -30,3 +36,4 @@ compiler. It is hosted on [uberspace](https://uberspace.de/), domains are provid
 The design is based on [Bootstrap](https://getbootstrap.com/), from
 Twitter, in version 3.3.7, and is licensed under the [MIT license](https://raw.githubusercontent.com/twbs/bootstrap/v3.3.7/LICENSE).
 The source code for the website is available at <http://anonscm.debian.org/gitweb/?p=users/jak/website.git;a=summary>.
+

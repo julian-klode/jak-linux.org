@@ -1,4 +1,10 @@
-[[!meta title="DNS66 - DNS-based host/ad blocking for Android"]]
+---
+title: "DNS66 - DNS-based host/ad blocking for Android"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+lastmod: Thu, 18 Oct 2018 21:36:18 +0200
+---
+
+
 
 [[!table format=dsv data="""
 Status|License|Language|Reference
@@ -13,3 +19,4 @@ Android's VPN layer and blocking requests for blacklisted hosts.
       height="80">](https://f-droid.org/app/org.jak_linux.dns66)
 
 See the GitHub page for further information.
+
