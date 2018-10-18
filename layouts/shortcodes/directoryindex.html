@@ -1,0 +1,23 @@
+{{- $pathURL := .Get "pathURL" -}}
+{{- $path := .Get "path" -}}
+{{- $files := readDir $path -}}
+<table class="table">
+	<thead>
+		<tr>
+		<th>Name</th>
+		<th>Size in bytes</th>
+		<th>SHA256</th>
+		</tr>
+    </thead>
+	<tbody>
+{{- range $files }}
+		<tr>
+			
+			<td><a href="{{ $pathURL }}{{ .Name | relURL }}" target="_blank"> {{ .Name }}</a></td>
+			<td style="text-align: right">{{ .Size }}</td>
+			<td>{{ printf "%s/%s" $path .Name | readFile | sha256 }}</td>
+		</tr>
+{{- end }}
+	</tbody>
+</table>
+
