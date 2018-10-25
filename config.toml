@@ -1,6 +1,7 @@
 baseURL = "https://jak-linux.org"
 languageCode = "en-us"
 title = "JAK LINUX"
+enableGitInfo = true
 
 [menu]
 
