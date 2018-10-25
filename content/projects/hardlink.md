@@ -10,7 +10,7 @@ markup: "mmark"
 Status|License|Language|Bug tracking|VCS|Latest release
 ------|-------|--------|------------|---|---------------
 Deprecated|MIT|Python|[email](mailto:jak@jak-linux.org)|[salsa.debian.org](http://salsa.debian.org/jak/hardlink)|[hardlink_0.1.2.tar.gz](hardlink_0.1.2.tar.gz) ([GPG](hardlink_0.1.2.tar.gz.asc), Feb 2012)
-Stable|MIT|C|[email](mailto:jak@jak-linux.org)|[salsa.debian.org](http://salsa.debian.org/gitweb/jak/hardlink)|[hardlink_0.3.0.tar.xz](hardlink_0.3.0.tar.xz) ([GPG](hardlink_0.3.0.tar.xz.asc), Sep 2014)
+Stable|MIT|C|[email](mailto:jak@jak-linux.org)|[salsa.debian.org](http://salsa.debian.org/jak/hardlink)|[hardlink_0.3.0.tar.xz](hardlink_0.3.0.tar.xz) ([GPG](hardlink_0.3.0.tar.xz.asc), Sep 2014)
 
 
 hardlink is a tool which replaces multiple copies of a file with hardlinks.
