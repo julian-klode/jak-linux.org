@@ -15,7 +15,7 @@ Developer and Ubuntu Member. [Read more...]({{< ref "about.md" >}})
 {.table}
 Date|Event|Details
 ----|-----|-------
-2018-10-21|Tech changes|Switched from ikiwiki to Hugo
+2018-10-25|Tech changes|Switched from ikiwiki to Hugo
 2017-02-06|Tech changes|Switched to HTTPS (with HSTS) and compressed content
 2016-01-19|[dir2ogg](projects/dir2ogg) | [0.12](projects/dir2ogg/0.12/dir2ogg-0.12.tar.gz)|Bug fixes and removal of CD support
 2014-09-25|[hardlink](projects/hardlink) [0.3.0](projects/hardlink/hardlink_0.3.0.tar.xz)|Stable 0.3 release, added including xattr support
