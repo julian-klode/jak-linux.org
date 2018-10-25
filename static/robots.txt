@@ -1,0 +1,2 @@
+Sitemap: https://jak-linux.org/sitemap.xml
+
