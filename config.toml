@@ -1,0 +1,51 @@
+baseURL = "https://jak-linux.org"
+languageCode = "en-us"
+title = "JAK LINUX"
+
+[menu]
+
+  [[menu.main]]
+    name = "dh-autoreconf"
+    url = "/projects/dh-autoreconf"
+    weight = -110
+  [[menu.main]]
+    name = "dir2ogg"
+    url = "/projects/dir2ogg"
+    weight = -109
+  [[menu.main]]
+    name = "hardlink"
+    url = "/projects/hardlink"
+    weight = -108
+  [[menu.main]]
+    name = "ndisgtk"
+    url = "/projects/ndisgtk"
+    weight = -107
+  [[menu.main]]
+    name = "triehash"
+    url = "/projects/triehash"
+    weight = -106
+  [[menu.main]]
+    name = "dns66"
+    url = "/projects/dns66"
+    weight = -105
+
+  [[menu.right]]
+    name = "About"
+    url = "/about"
+    weight = -90
+
+  [[menu.right]]
+    pre = "<i class='fab fa-mastodon'></i>"
+    post = "<i class='fas fa-external-link-alt'></i>"
+    url = "https://mastodon.social/@juliank"
+    name = "Mastodon"
+    weight = -70
+
+
+
+
+  [[menu.right]]
+    name = "Blog"
+    post = "<i class='fas fa-external-link-alt'></i>"
+    url = "https://blog.jak-linux.org/"
+	weight = 0

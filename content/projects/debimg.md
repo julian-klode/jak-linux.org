@@ -1,9 +1,15 @@
-[[!meta title="debimg - Alternative debian-cd in Python"]]
+---
+title: "debimg - Alternative debian-cd in Python"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+markup: "mmark"
+---
 
-[[!table format=dsv data="""
+
+
+{.table}
 Status|License|Language|SCM|Latest release
+------|-------|--------|---|---------------
 Historic|GPL-3+|Python (2.5)|[Git](http://git.debian.org/?p=debimg/debimg.git)|N/A
-"""]]
 
 <div class="alert alert-warning">
     debimg is not in active use or development. This page is provided for
@@ -94,5 +100,6 @@ available, though.
     </dd>
 
 </dl>
+
 
 

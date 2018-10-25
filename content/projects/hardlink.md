@@ -1,10 +1,16 @@
-[[!meta title="hardlink - replace file copies using hardlinks"]]
+---
+title: "hardlink - replace file copies using hardlinks"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+markup: "mmark"
+---
 
-[[!table format=dsv data="""
+
+
+{.table}
 Status|License|Language|Bug tracking|VCS|Latest release
-Deprecated|MIT|Python|[email](mailto:jak@jak-linux.org)|[git.debian.org](http://anonscm.debian.org/gitweb/?p=users/jak/hardlink.git;a=summary)|[[hardlink_0.1.2.tar.gz]] ([[GPG|hardlink_0.1.2.tar.gz.asc]], Feb 2012)
-Stable|MIT|C|[email](mailto:jak@jak-linux.org)|[git.debian.org](http://anonscm.debian.org/gitweb/?p=users/jak/hardlink.git;a=summary)|[[hardlink_0.3.0.tar.xz]] ([[GPG|hardlink_0.3.0.tar.xz.asc]], Sep 2014)
-"""]]
+------|-------|--------|------------|---|---------------
+Deprecated|MIT|Python|[email](mailto:jak@jak-linux.org)|[salsa.debian.org](http://salsa.debian.org/jak/hardlink)|[hardlink_0.1.2.tar.gz](hardlink_0.1.2.tar.gz) ([GPG](hardlink_0.1.2.tar.gz.asc), Feb 2012)
+Stable|MIT|C|[email](mailto:jak@jak-linux.org)|[salsa.debian.org](http://salsa.debian.org/gitweb/jak/hardlink)|[hardlink_0.3.0.tar.xz](hardlink_0.3.0.tar.xz) ([GPG](hardlink_0.3.0.tar.xz.asc), Sep 2014)
 
 
 hardlink is a tool which replaces multiple copies of a file with hardlinks.
@@ -58,3 +64,4 @@ Licensing
 ---------
 hardlink is published under the terms of the MIT license. See the source code
 for more information. This file is subject to the same licensing terms.
+

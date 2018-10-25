@@ -1,7 +1,0 @@
-[[!meta title="Index of /projects/dir2ogg/0.10"]]
-* [Parent](../)
-* [[dir2ogg-0.10.tar.gz]]
-* [[dir2ogg-0.10.1.tar.gz]]
-* [[dir2ogg-0.10.2.tar.gz]]
-* [[dir2ogg-0.10.3.tar.gz]]
-

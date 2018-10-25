@@ -1,1 +1,0 @@
-[[!map pages="projects/dir2ogg/0.12/* and ! projects/dir2ogg/0.12/*/*"]]

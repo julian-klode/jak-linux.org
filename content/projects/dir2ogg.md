@@ -1,9 +1,16 @@
-[[!meta title="dir2ogg - audio conversion tool"]]
+---
+title: "dir2ogg - audio conversion tool"
+date: Thu, 18 Oct 2018 21:36:18 +0200
+markup: "mmark"
+---
 
-[[!table format=dsv data="""
+
+
+{.table}
 Status|License|Language|Links|Latest release
-Maintenance|GPL-2+|Python|[Github](https://www.github.com/julian-klode/dir2ogg)|[[0.12/dir2ogg-0.12.tar.gz]] ([[GPG|0.12/dir2ogg-0.12.tar.gz.asc]], Jan 2016)
-"""]]
+------|-------|--------|-----|------------
+Maintenance|GPL-2+|Python|[Github](https://www.github.com/julian-klode/dir2ogg)|[dir2ogg-0.12.tar.gz](0.12/dir2ogg-0.12.tar.gz) ([GPG](0.12/dir2ogg-0.12.tar.gz.asc), Jan 2016)
+
 
 dir2ogg is a GPL'ed python script which converts mp3, m4a, wma, and wav files
 into ogg-vorbis format. It can preserve tags found in the input file where
@@ -15,10 +22,10 @@ or report a bug, please do so in the [bug tracker](https://bugs.launchpad.net/di
 at launchpad.net.
 
 ## Downloads
-The current stable release is [[0.12|0.12/dir2ogg-0.12.tar.gz]] ([[NEWS]]). It is recommended
+The current stable release is [0.12](0.12/dir2ogg-0.12.tar.gz) ([NEWS](NEWS)). It is recommended
 that you install and use this version.
 If you need an older version of dir2ogg, you may want to visit the directories
-of the relevant release series: [[0.10]], [[0.11]].
+of the relevant release series: [0.10](0.10), [0.11](0.11).
 
 ## Installation
 Users running [Debian](http://packages.debian.org/dir2ogg),
@@ -37,8 +44,10 @@ $ sudo sh ./install.sh              # or simply run dir2ogg via ./dir2ogg
 </pre>
 
 ### Dependencies
-[[!table format=dsv data="""
+
+{.table}
 Format|Recommended|Alternatives
+------|-----------|------------
 APE (Monkey's Audio)|mac|mplayer
 MP3|mpg321|mpg123,lame,mplayer
 MP4/M4A/AAC|faad|alac-decoder (for ALAC files), mplayer
@@ -47,9 +56,9 @@ MPC (Musepack)|mpcdec|mplayer
 WMA/ASF|mplayer|
 WV (WavPack)|wvunpack|mplayer
 Audio-CD|cdparanoia|icedax, cdda2wav, mplayer
-"""]]
+
 ## Usage
-These are some examples. For more information, read the [[manual page|usage]].
+These are some examples. For more information, read the [manual page](usage).
 
 ### Convert files
 
@@ -73,3 +82,4 @@ hard-core audiophile you may be disappointed. I really can't notice a difference
 in quality with 'naked' ears myself. You might want to do your conversion, then
 compare with the original before erasing them."_ - Darren Kirby, initial
 dir2ogg developer
+

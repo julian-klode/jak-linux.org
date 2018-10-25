@@ -8,19 +8,17 @@
     <meta name="description" content="Personal Website" />
     <meta name="author" content="Julian Andres Klode" />
 
-    <title><TMPL_LOOP NAME="PARENTLINKS"><TMPL_VAR NAME=PAGE>/</TMPL_LOOP><TMPL_VAR TITLE></title>
-
-    <TMPL_IF NAME="META"><TMPL_VAR META></TMPL_IF>
+    <title>{{ .Title }}</title>
 
     <!-- ikiwiki CSS -->
-    <link href="<TMPL_VAR BASEURL>style.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/style.css" rel="stylesheet" />
 
     <!-- Bootstrap core CSS -->
-    <link href="<TMPL_VAR BASEURL>bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="<TMPL_VAR BASEURL>local.css" rel="stylesheet" />
-    <link href="<TMPL_VAR BASEURL>fontawesome-5.4.1/css/all.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/local.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/fontawesome-5.4.1/css/all.min.css" rel="stylesheet" />
 
   </head>
   <body>
@@ -34,24 +32,43 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<TMPL_VAR BASEURL>"><TMPL_VAR WIKINAME></a>
+          <a class="navbar-brand" href="{{ .Site.BaseURL }}/">{{ .Site.Title }} </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <TMPL_LOOP BOOTMENU>
-                <TMPL_IF FIRSTNAV>
-                    <li <TMPL_IF ACTIVE>class="active"</TMPL_IF>><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
-                </TMPL_IF>
-            </TMPL_LOOP>
+		   {{ $currentPage := . }}
+		   {{ range .Site.Menus.main }}
+					<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+						<a href="{{ .URL }}">
+							{{ .Pre | safeHTML }}
+							<span>{{ .Name }}</span>
+						</a>
+						{{ .Post }}
+					</li>
+
+			{{ end }}
+
+
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <TMPL_LOOP BOOTMENU>
+		   {{ range .Site.Menus.right }}
+					<li>
+						<a href="{{ .URL }}">
+							{{ .Pre }}
+							<span>{{ .Name }}</span>
+							{{ .Post }}
+						</a>
+					</li>
+
+			{{ end }}
+
+
+<!--            <TMPL_LOOP BOOTMENU>
                 <TMPL_IF FIRSTNAV>
                 <TMPL_ELSE>
                     <li <TMPL_IF ACTIVE>class="active"</TMPL_IF>><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
                 </TMPL_IF>
-            </TMPL_LOOP>
-            <li><a href="https://blog.jak-linux.org/">Blog <i class="fas fa-external-link-alt"></i></a></li>
+            </TMPL_LOOP>-->
           </ul>
         </div>
       </div>
@@ -61,10 +78,10 @@
 
 
           <header class="page-header">
-            <h1><TMPL_VAR TITLE></h1>
+            <h1>{{ .Title }}</h1>
           </header>
 
-            <TMPL_VAR CONTENT>
+            {{ .Content }}
 
     </div> <!-- /container -->
 
@@ -72,8 +89,8 @@
       <div class="container">
         <p class="text-muted">
                 Copyright © 2007-2018 Julian Andres Klode - License: <a href="http://jak-linux.org/LICENSE">Creative Commons 3.0 BY-SA (content) / MIT (theme)</a>
-                <span class="pull-right">Powered by <a href="http://ikiwiki.info/">ikiwiki</a> -
-                <a href="http://validator.w3.org/check?uri=referer">Valid (X)HTML 5</a></span>
+                <span class="pull-right">Powered by <a href="http://gohugo.io/">Hugo</a> -
+                <a href="https://validator.w3.org/check?uri=referer">Valid (X)HTML 5</a></span>
             </p>
       </div>
     </footer>
@@ -82,8 +99,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<TMPL_VAR BASEURL>jquery.min.js"></script>
-    <script src="<TMPL_VAR BASEURL>bootstrap.min.js"></script>
+    <script src="{{ .Site.BaseURL }}/jquery.min.js"></script>
+    <script src="{{ .Site.BaseURL }}/bootstrap.min.js"></script>
 
   </body>
 </html>
