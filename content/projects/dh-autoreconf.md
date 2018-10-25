@@ -1,7 +1,6 @@
 ---
 title: "dh-autoreconf - Automagical autoreconf for debhelper"
 date: Thu, 18 Oct 2018 21:36:18 +0200
-lastmod: Thu, 18 Oct 2018 21:36:18 +0200
 markup: "mmark"
 ---
 
