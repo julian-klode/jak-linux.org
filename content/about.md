@@ -15,11 +15,16 @@ and develop some other software myself, such as hardlink.
 
 You can contact me via one of the following options:
 
- * Send an email to [jak@jak-linux.org](mailto:jak@jak-linux.org)
- * Send a Jabber message to [juliank@jabber.ccc.de](xmpp:juliank@jabber.ccc.de)
- * Contact me via IRC, nickname *juliank* on networks FreeNode, OFTC.
+ * <i class='fas fa-envelope'></i>&nbsp;&nbsp;[jak@jak-linux.org](mailto:jak@jak-linux.org)
+ * <i class='fas fa-comment'></i>&nbsp;&nbsp; [juliank@jabber.ccc.de](xmpp:juliank@jabber.ccc.de)
+ * <i class='fas fa-comment'></i>&nbsp;&nbsp; *juliank* on IRC networks FreeNode, OFTC
 
-Or find me on Mastodon: <i class='fab fa-mastodon'></i> <a href="https://mastodon.social/@juliank">@juliank@mastodon.social</a>.
+And follow me on social networks:
+
+ * <i class='fab fa-mastodon'></i>&nbsp;&nbsp;<a href="https://mastodon.social/@juliank">@juliank@mastodon.social</a>
+ * <i class='fab fa-twitter'></i>&nbsp;&nbsp;<a href="https://twitter.com/JulianKlode">twitter.com/JulianKlode</a> (just bridged from Mastodon)
+
+
 ## Site History
 Initially, JAK LINUX was supposed to be a Linux distribution based on
 Debian GNU/Linux 4.0, shipping standard Debian packages plus some packages
