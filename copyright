@@ -1,0 +1,62 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/julian-klode/jak-linux.org
+
+Files: *
+Copyright: Copyright (C) 2009 - 2018 Julian Andres Klode <jak@jak-linux.org>
+License: CC-BY-SA-4.0
+ See https://creativecommons.org/licenses/by-sa/4.0/ for more details
+
+Files: static/projects/*
+Copyright: Copyright (C) 2009 - 2018 Julian Andres Klode <jak@jak-linux.org>
+License: various
+ Project releases are released under the project licenses, consult
+ the tarballs for licensing information.
+
+Files:
+ layouts/_default/single.html
+ static/bootstrap.min.css     
+ static/bootstrap.min.js     
+ static/local.css
+Copyright:
+ Copyright 2011-2016 Twitter, Inc.
+ Copyright (C) 2009 - 2018 Julian Andres Klode <jak@jak-linux.org>
+License: Expat
+Comment:
+ Bootstrap and works derived from it.
+
+Files: static/jquery.min.js
+Copyright: (c) 2005, 2015 jQuery Foundation, Inc.
+License: Expat
+
+Files: static/fontawesome*/*
+Copyright: Fontawesome authors
+License: Expat
+
+Files: static/fontawesome*/webfonts/*
+Copyright: Fontawesome authors
+License: SIL-OFL-1.1+
+ See https://scripts.sil.org/OFL
+
+Files: layouts/shortcodes/directoryindex.html
+Copyright: hugoDocs authors
+License: Apache-2.0
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
