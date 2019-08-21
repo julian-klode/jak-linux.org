@@ -15,6 +15,7 @@ Developer and Ubuntu Member. [Read more...]({{< ref "about.md" >}})
 {.table}
 Date|Event|Details
 ----|-----|-------
+2019-08-21|[dir2ogg](projects/dir2ogg) | [0.13](projects/dir2ogg/0.13/dir2ogg-0.13.tar.gz)|Converted to Python 3
 2018-10-25|Tech changes|Switched from ikiwiki to Hugo
 2017-02-06|Tech changes|Switched to HTTPS (with HSTS) and compressed content
 2016-01-19|[dir2ogg](projects/dir2ogg) | [0.12](projects/dir2ogg/0.12/dir2ogg-0.12.tar.gz)|Bug fixes and removal of CD support

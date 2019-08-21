@@ -9,7 +9,7 @@ markup: "mmark"
 {.table}
 Status|License|Language|Links|Latest release
 ------|-------|--------|-----|------------
-Maintenance|GPL-2+|Python|[Github](https://www.github.com/julian-klode/dir2ogg)|[dir2ogg-0.12.tar.gz](0.12/dir2ogg-0.12.tar.gz) ([GPG](0.12/dir2ogg-0.12.tar.gz.asc), Jan 2016)
+Maintenance|GPL-2+|Python|[Github](https://www.github.com/julian-klode/dir2ogg)|[dir2ogg-0.13.tar.gz](0.13/dir2ogg-0.13.tar.gz) ([GPG](0.13/dir2ogg-0.13.tar.gz.asc), Jan 2016)
 
 
 dir2ogg is a GPL'ed python script which converts mp3, m4a, wma, and wav files
@@ -22,10 +22,10 @@ or report a bug, please do so in the [bug tracker](https://bugs.launchpad.net/di
 at launchpad.net.
 
 ## Downloads
-The current stable release is [0.12](0.12/dir2ogg-0.12.tar.gz) ([NEWS](NEWS)). It is recommended
+The current stable release is [0.13](0.13/dir2ogg-0.13.tar.gz) ([NEWS](NEWS)). It is recommended
 that you install and use this version.
 If you need an older version of dir2ogg, you may want to visit the directories
-of the relevant release series: [0.10](0.10), [0.11](0.11).
+of the relevant release series: [0.10](0.10), [0.11](0.11), [0.12](0.12).
 
 ## Installation
 Users running [Debian](http://packages.debian.org/dir2ogg),
@@ -38,8 +38,8 @@ Users running other distributions may need to manually install it, probably
 like this:
 
 <pre>
-$ tar xzf dir2ogg-0.12.tar.gz
-$ cd dir2ogg-0.12
+$ tar xzf dir2ogg-0.13.tar.gz
+$ cd dir2ogg-0.13
 $ sudo sh ./install.sh              # or simply run dir2ogg via ./dir2ogg
 </pre>
 
