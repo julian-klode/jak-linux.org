@@ -9,7 +9,7 @@ markup: "mmark"
 {.table}
 Status|License|Language|Links|Latest release
 ------|-------|--------|-----|------------
-Maintenance|GPL-2+|Python|[Github](https://www.github.com/julian-klode/dir2ogg)|[dir2ogg-0.13.tar.gz](0.13/dir2ogg-0.13.tar.gz) ([GPG](0.13/dir2ogg-0.13.tar.gz.asc), Jan 2016)
+Maintenance|GPL-2+|Python|[Github](https://www.github.com/julian-klode/dir2ogg)|[dir2ogg-0.13.tar.gz](0.13/dir2ogg-0.13.tar.gz) ([GPG](0.13/dir2ogg-0.13.tar.gz.asc), Aug 2019)
 
 
 dir2ogg is a GPL'ed python script which converts mp3, m4a, wma, and wav files
