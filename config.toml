@@ -41,6 +41,8 @@ enableGitInfo = true
     url = "https://mastodon.social/@juliank"
     name = "Mastodon"
     weight = -70
+    [menu.right.params]
+        rel= "me"
 
 
 
@@ -49,4 +51,6 @@ enableGitInfo = true
     name = "Blog"
     post = "<i class='fas fa-external-link-alt'></i>"
     url = "https://blog.jak-linux.org/"
-	weight = 0
+    weight = 0
+    [menu.right.params]
+        rel= "me"

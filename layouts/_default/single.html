@@ -36,7 +36,7 @@
 		   {{ $currentPage := . }}
 		   {{ range .Site.Menus.main }}
 					<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-						<a href="{{ .URL }}">
+						<a href="{{ .URL }}"{{ with .Params.rel }} rel="{{ . }}"{{ end }}>
 							{{ .Pre | safeHTML }}
 							<span>{{ .Name }}</span>
 						</a>
@@ -50,7 +50,7 @@
           <ul class="nav navbar-nav navbar-right">
 		   {{ range .Site.Menus.right }}
 					<li>
-						<a href="{{ .URL }}">
+                        <a href="{{ .URL }}"{{ with .Params.rel }} rel="{{ . }}"{{ end }}>
 							{{ .Pre }}
 							<span>{{ .Name }}</span>
 							{{ .Post }}

@@ -20,8 +20,8 @@ You can contact me via one of the following options:
 
 And follow me on social networks:
 
- * <i class='fab fa-mastodon'></i>&nbsp;&nbsp;<a href="https://mastodon.social/@juliank">@juliank@mastodon.social</a>
- * <i class='fab fa-twitter'></i>&nbsp;&nbsp;<a href="https://twitter.com/JulianKlode">twitter.com/JulianKlode</a> (just bridged from Mastodon)
+ * <i class='fab fa-mastodon'></i>&nbsp;&nbsp;<a href="https://mastodon.social/@juliank" rel="me">@juliank@mastodon.social</a>
+ * <i class='fab fa-twitter'></i>&nbsp;&nbsp;<a href="https://twitter.com/JulianKlode" rel="me">twitter.com/JulianKlode</a> (just bridged from Mastodon)
 
 
 ## Site History
@@ -32,7 +32,7 @@ since become a place where my projects are hosted.
 
 ## Site Technology
 The JAK LINUX site is powered by [Hugo](http://gohugo.io), a free static site
-generator. It is hosted on [uberspace](https://uberspace.de/), domains are provided by
+generator. It is hosted on [hetzner](https://hetzner.nde/), domains are provided by
 [INWX](https://www.inwx.de/).
 
 The design is based on [Bootstrap](https://getbootstrap.com/), from
