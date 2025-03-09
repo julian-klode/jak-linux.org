@@ -16,7 +16,7 @@ You can contact me via one of the following options:
 
  * <i class='fas fa-envelope'></i>&nbsp;&nbsp;[jak@jak-linux.org](mailto:jak@jak-linux.org)
  * <i class='fas fa-comment'></i>&nbsp;&nbsp; [juliank@jabber.ccc.de](xmpp:juliank@jabber.ccc.de)
- * <i class='fas fa-comment'></i>&nbsp;&nbsp; *juliank* on IRC networks FreeNode, OFTC
+ * <i class='fas fa-comment'></i>&nbsp;&nbsp; *juliank* on IRC networks Libera.Chat, OFTC
 
 And follow me on social networks:
 
@@ -27,12 +27,12 @@ And follow me on social networks:
 ## Site History
 Initially, JAK LINUX was supposed to be a Linux distribution based on
 Debian GNU/Linux 4.0, shipping standard Debian packages plus some packages
-from a custom repository. This plan never really took of, and the site has
+from a custom repository. This plan never really took off, and the site has
 since become a place where my projects are hosted.
 
 ## Site Technology
 The JAK LINUX site is powered by [Hugo](http://gohugo.io), a free static site
-generator. It is hosted on [hetzner](https://hetzner.nde/), domains are provided by
+generator. It is hosted on [hetzner](https://hetzner.de/), domains are provided by
 [INWX](https://www.inwx.de/).
 
 The design is based on [Bootstrap](https://getbootstrap.com/), from
